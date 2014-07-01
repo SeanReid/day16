@@ -3,8 +3,9 @@ class Student < ActiveRecord::Base
   has_many :assignments
 
   def assignment_names
-    assignment_name.each do |x|
-      x.name
+    names = assignments.map do |assignment|
+      assignment.assignment_name
     end
+    return names.join(", ")
   end
 end
