@@ -11,7 +11,6 @@ This homeworks requirements were:
 
 I should be able to run:
 
-```ruby
-student = Student.first
-puts student.assignment_names
-```
+
+* student = Student.first
+* puts student.assignment_names
