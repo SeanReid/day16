@@ -1,28 +1,17 @@
-== README
+This homeworks requirements were:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. create a Rails project
+2. Create a git repository and add all files
+2. Add a model that has students (name)
+3. Add a model that has assignments (day, student, name, status)
+4. Create 3 students and 5 assignments
+5. Configure Students and Assignments for foreign key stuff
+6. Submit your code to a github repository
+7. Send link to your repo as a GitHub Issue
 
-Things you may want to cover:
+I should be able to run:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+```ruby
+student = Student.first
+puts student.assignment_names
+```
